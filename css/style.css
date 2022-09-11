@@ -1,0 +1,45 @@
+* {
+    background-color: bisque;
+}
+
+a:hover {
+    color: red;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 80%;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 120px;
+}
